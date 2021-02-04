@@ -1,0 +1,23 @@
+.paper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    width:100%;
+    margin-top: 392px;
+    z-index: 0;
+}
+
+.paper1 {
+    background-image: url("./paper1.svg");
+    width:711px;
+    height:386px;
+    display: flex;
+}
+
+.paper2{
+    background-image: url("./paper2.svg");
+    width:336px;
+    height:330px;
+    display: flex;
+}
