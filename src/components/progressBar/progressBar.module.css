@@ -1,0 +1,16 @@
+.bar {
+    height: 40px;
+    border-radius: 4.6px;
+    color : white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: IBM-Plex-Sans;
+    box-sizing: border-box;
+    padding: 10px 0 5px 10px;
+    display: flex;
+    justify-content: left;
+
+    width: 250px;
+    background-color: #D3C3C3   ;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+.portfolioBox {
+    width: 100%;
+    background-color: #EEE5DB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.portfolioTitle {
+    font-family: Reem-Kufi;
+    font-size: 36px;
+    color: #2D2D2D;
+    border-bottom: 3px solid #2D2D2D;
+    margin-bottom: 100px;
+}

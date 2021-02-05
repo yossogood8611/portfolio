@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: flex-end;
     width:100%;
-    margin-top: 392px;
+    margin-top: 394px;
     z-index: 0;
 }
 
@@ -13,6 +13,8 @@
     width:711px;
     height:386px;
     display: flex;
+    position: relative;
+    z-index: 0;
 }
 
 .paper2{
@@ -20,4 +22,6 @@
     width:336px;
     height:330px;
     display: flex;
+    position: relative;
+    z-index: 1;
 }

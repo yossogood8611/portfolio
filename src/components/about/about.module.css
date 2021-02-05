@@ -1,0 +1,34 @@
+.aboutBox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 0 250px 0;
+}
+
+.aboutTitle {
+    font-family: Reem-Kufi;
+    font-size: 36px;
+    color: #2D2D2D;
+    border-bottom: 3px solid #2D2D2D;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.aboutProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progressChart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+}
