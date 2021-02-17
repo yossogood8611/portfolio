@@ -31,3 +31,19 @@
 .content div {
     color : #EEE5DB;
 }
+
+.toTopBtn {
+    width: 36px;
+    height: 28px;
+    background-image: url("toTop.svg");
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -17px;
+}
+
+.UpBox {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

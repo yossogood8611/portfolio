@@ -13,7 +13,7 @@ function Portfolio() {
     //background img, content Text, project 세부 내용 DB에서 받아오기
 
     return(
-        <div className={styles.portfolioBox}>
+        <div className={styles.portfolioBox} id='portfolio'>
             <div data-aos="flip-right" data-aos-duration="1500">
                 <div className={styles.portfolioTitle}>PORTFOLIO</div>
             </div>

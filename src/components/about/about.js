@@ -12,7 +12,7 @@ function About() {
     },[]);
 
     return(
-        <div className={styles.aboutBox}>
+        <div className={styles.aboutBox} id='about'>
             <div data-aos="flip-right" data-aos-duration="1500">
                 <span className={styles.aboutTitle}>ABOUT</span>
             </div>

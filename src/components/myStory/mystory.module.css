@@ -10,11 +10,12 @@
     box-sizing: border-box;
     padding: 20px 0;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .myStory {
-    width: 1000px;
-    height: 800px;
+    width: 800px;
+    height: 600px;
     box-sizing: border-box;
     padding: 50px;
     background-color: #D3C3C3;
@@ -43,5 +44,6 @@
     background-color: #9E9AA2;
     color: white;
     font-weight: bold;
-    margin-top: 500px;
+    margin-top: 300px;
+    cursor: pointer;
 }

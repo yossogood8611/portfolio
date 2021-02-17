@@ -7,7 +7,7 @@ import Paper from '../paper/paper';
 function Index() {
 
     return(
-        <div className={styles.indexBox}>
+        <div className={styles.indexBox} id='home'>
             <div className={styles.indexBack}>
                 <div className={styles.notebook}>
                     <Header/>

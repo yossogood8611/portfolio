@@ -23,11 +23,11 @@ function Header() {
             {position : y > 770 ? "fixed" : "relative",
                 opacity : y > 770 ? "77%" : "100%"}
         }>
-            <div>HOME</div>
-            <div>ABOUT</div>
-            <div>PORTFOLIO</div>
-            <div>BLOG</div>
-            <div>CONTACT</div>
+            <a href="#home"><div>HOME</div></a>
+            <a href="#about"><div>ABOUT</div></a>
+            <a href="#portfolio"><div>PORTFOLIO</div></a>
+            <a href="#blog"><div>BLOG</div></a>
+            <a href="#contact"><div>CONTACT</div></a>
         </div>
     )
 }

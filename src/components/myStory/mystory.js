@@ -13,7 +13,7 @@ function Mystory() {
             <div className={styles.mystoryBtn} onClick={openModal}>
                 MY STORY
             </div>
-            <Modal visible={visible} effect="fadeInUp" width="1000" height="800">
+            <Modal visible={visible} effect="fadeInUp" width="800" height="600">
                 <div>
                     <div className={styles.myStory}>
                         <div className={styles.myStoryTitle}>My story</div>

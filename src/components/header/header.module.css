@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:hover { color: #D3A6FF; text-decoration: none;}
+
 .headerBox {
     display: flex;
     width: 959.7px;
@@ -11,8 +19,5 @@
     font-family: Reem-Kufi;
     font-size: 18.48px;
     color: white;
-}
-
-.headerBox div:hover {
-    color : #D3A6FF;
+    text-decoration: none;
 }

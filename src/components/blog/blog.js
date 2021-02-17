@@ -10,7 +10,7 @@ function Blog() {
     },[]);
 
     return(
-       <div>
+       <div id='blog'>
            <div className={styles.blogBox}>
                <div data-aos="flip-right" data-aos-duration="1500">
                    <div className={styles.blogTitle}>BLOG</div>
