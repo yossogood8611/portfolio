@@ -1,15 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './about.module.css';
 import Profile from "../profile/profile";
 import Mystory from "../myStory/mystory";
-import ProgressBar from "../progressBar/progressBar";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import axios from 'axios';
 
 function About() {
+    const [techStack, setTechStack] = useState([]);
+
     React.useEffect(()=> {
         Aos.init({});
+        getTechStack();
+        console.log(techStack);
     },[]);
+
+    let getTechStack = async function() {
+        let result = await axios ({
+            method : 'GET',
+            url : 'http://localhost:3001/tech',
+            headers: {'Access-Control-Allow-Origin': '*'},
+            mode: 'cors',
+    })
+        setTechStack(result.data);
+        console.log(result.data);
+    }
 
     return(
         <div className={styles.aboutBox} id='about'>
@@ -22,11 +37,7 @@ function About() {
                     <Mystory/>
                 </div>
                 <div className={styles.progressChart}>
-                    <ProgressBar/>
-                    <ProgressBar/>
-                    <ProgressBar/>
-                    <ProgressBar/>
-                    <ProgressBar/>
+
                 </div>
             </div>
         </div>
