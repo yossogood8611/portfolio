@@ -1,8 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic);
+
 .message {
     font-size: 64px;
     font-weight: bold;
     text-align: center;
     margin-top: 100px;
+    font-family: 'Open-Sans', sans-serif;
 }
 
 .impact {

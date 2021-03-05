@@ -14,3 +14,11 @@
     color: #2D2D2D;
     border-bottom: 3px solid #2D2D2D;
 }
+
+.contactItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 150px;
+}

@@ -67,7 +67,7 @@
 
 .modalImg {
     width: 1000px;
-    height: 550px;
+    height: 500px;
     background-color: #E5E5E5;
     display: flex;
     flex-direction: row;
@@ -94,13 +94,28 @@
 
 .modalEx {
     width: 1000px;
-    height: 150px;
+    height: 200px;
     background-color: #D3C3C3;
-    color: #525252;
+    color: #393939;
     font-size: 20px;
     text-align: left;
     box-sizing: border-box;
-    padding: 15px 0 0 20px;
+    padding: 15px 20px 20px 20px;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.modalTitle {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modalUse {
+    font-size: 20px;
+}
+
+.modalExText{
+    font-size: 20px;
 }
 
 .modalExit {
@@ -111,7 +126,18 @@
     cursor : pointer;
 }
 
+.modalHr {
+    width: 900px;
+    margin: 10px 0;
+    border: 1px solid #9F9F9F;
+}
+
 .modalExit:hover {
     animation-duration: 1.5s;
     animation-name: spin;
+}
+
+.panel {
+    width: 800px;
+    height: 500px;
 }

@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import styles from './projectCard.module.css';
 import Modal from 'react-awesome-modal';
 
-
 function ProjectCard() {
     let [visible, setvisible] = useState(false);
 
@@ -27,9 +26,10 @@ function ProjectCard() {
                         <div className={styles.modalNext}></div>
                     </div>
                     <div className={styles.modalEx}>
-                        프로젝트 명 : <br/>
-                        설명 : <br/>
-                        git : <br/>
+                        <span className={styles.modalTitle}>Project Name<br/></span>
+                        <span className={styles.modalUse}>React, css, Design<br/></span>
+                        <hr className={styles.modalHr}/>
+                        <span className={styles.modalExText}>git : http://projectGit<br/></span>
                         <div className={styles.modalExit} onClick={closeModal}></div>
                     </div>
                 </div>

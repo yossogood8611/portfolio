@@ -4,7 +4,7 @@ html {
 
 a:link { color: white; text-decoration: none;}
 a:visited { color: white; text-decoration: none;}
-a:hover { color: #D3A6FF; text-decoration: none;}
+a:hover { color: #D3C3C3; text-decoration: none;}
 
 .headerBox {
     display: flex;

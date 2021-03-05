@@ -11,6 +11,7 @@
     padding: 20px 0;
     margin-top: 20px;
     cursor: pointer;
+    font-family: 'Open-Sans', sans-serif;
 }
 
 .myStory {
@@ -19,13 +20,14 @@
     box-sizing: border-box;
     padding: 50px;
     background-color: #D3C3C3;
-    color : #3E3E3E;
+    color: #3E3E3E;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
+    font-family: 'Open-Sans', sans-serif;
 }
 
 .myStoryTitle {
@@ -46,4 +48,5 @@
     font-weight: bold;
     margin-top: 300px;
     cursor: pointer;
+    font-family: 'Open-Sans', sans-serif;
 }
