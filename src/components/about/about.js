@@ -37,7 +37,11 @@ function About() {
                     <Mystory/>
                 </div>
                 <div className={styles.progressChart}>
-
+                    <div>
+                        {techStack.map(arr=> (
+                            <div key={arr.t_id} className={styles.bar}>{arr.name}</div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
