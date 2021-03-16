@@ -18,8 +18,6 @@ function Portfolio() {
                 <div className={styles.portfolioTitle}>PORTFOLIO</div>
             </div>
             <ProjectCard/>
-            <ProjectCard/>
-            <ProjectCard/>
         </div>
     )
 }
